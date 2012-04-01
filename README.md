@@ -12,7 +12,7 @@ mnml is a theme for deck.js, a JavaScript library for building modern HTML prese
 <link rel="stylesheet" type="text/css" href="/path/to/mnml.css" />
 ```
 
-3. Fire up a browser and hold a presentation for *acutal* profit!
+That's it! Fire up a browser and give a presentation for *acutal* profit!
 
 For further instructions and customization options, please consult the [deck.js documentation](http://imakewebthings.com/deck.js/introduction/).
 
