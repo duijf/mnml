@@ -1,11 +1,11 @@
 /* mnml.css
- * 
+ *
  * This is a customized version of the Swiss default theme. It is dual-licenced under the
  * GPL2 and MIT licenses and adapted from its original by Laurens Duijvesteijn. The original
- * swiss.css, as created by Caleb Troughton, is found on Github: 
+ * swiss.css, as created by Caleb Troughton, is found on Github:
  *
  * https://github.com/imakewebthings/deck.js
- * 
+ *
  */
 
 .deck-container {
@@ -13,10 +13,8 @@
     font-size: 1.25em;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
-    background: #fff;
-    -webkit-box-shadow: 0 0 4em #ccc;
-       -moz-box-shadow: 0 0 4em #ccc;
-            box-shadow: 0 0 4em #ccc;
+    background: #fafafa;
+    padding: 40px;
 }
 .deck-container .slide {
     background: #fafafa;
@@ -27,13 +25,11 @@
 .deck-container h4,
 .deck-container h5 {
     font-weight: normal;
-    border-top: 8px solid #333333;
-    border-bottom: 1px solid #333333;
     text-transform: uppercase;
 }
 
 .deck-container h1 {
-    min-height: 215px
+    font-size: 4em;
 }
 
 .deck-container h1 span {
@@ -42,9 +38,14 @@
 }
 
 .deck-container h2 {
-    font-size: 1.5em;
-    min-height: 60px;
+    font-size: 2em;
     margin-top: 1.5em;
+}
+
+.deck-container img {
+    margin-top: 40px;
+    max-height: 92%;
+    border: 4px #ccc solid;
 }
 
 .deck-container h3,
