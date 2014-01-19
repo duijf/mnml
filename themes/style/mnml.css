@@ -9,7 +9,6 @@
  */
 
 .deck-container {
-  padding: 40px;
   background: #fafafa;
   font-size: 1.25em;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -18,56 +17,48 @@
 }
 .slide {
   background: #fafafa;
+  margin: 40px;
 }
+
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-weight: normal;
-  text-transform: uppercase;
+  line-height: 1;
 }
 h1 {
-  font-size: 4em;
+  text-transform: uppercase;
+  font-size: 5.5em;
+  font-weight: bold;
+  border-bottom: 5px #000 solid;
+  margin: 0 0 70px 0;
 }
-
-h1 span {
-  display: block;
-  font-size: .7em;
-}
-
 h2 {
-  margin-top: 1.5em;
+  margin: 35px 0 25px 0;
   font-size: 2em;
-}
-
-img {
-  margin-top: 40px;
-  max-height: 92%;
-  border: 4px #ccc solid;
-}
-
-h3,
-h4 {
-  margin-top: 1em;
-  margin-bottom: .5em;
-  padding-bottom: .2em;
+  font-style: italic;
 }
 h3 {
-  border-top: 0;
+  margin: 30 0 20px 0;
   font-size: 1.3em;
 }
-
+ul > li > h3 {
+  margin: 0 0 20px 0;
+}
 h4 {
-  padding-top: 1em;
-  border-bottom: 0;
-  color: #27bbd1;
+  font-variant: small-caps;
 }
 .slide pre {
-  border-color: #ccc;
+  font-style: italic;
+  background: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .slide code {
-  color: #888;
+  color: #444;
 }
 .slide blockquote {
   margin-left: 1em;
@@ -86,6 +77,9 @@ h4 {
   font-weight: bold;
   font-style: normal;
   font-size: .5em;
+}
+.slide ol {
+  list-style-type: square;
 }
 .slide ::-moz-selection {
   background: #c00;
