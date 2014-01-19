@@ -1,6 +1,8 @@
+![mnml](http://i.imgur.com/zROlV78.png)
+
 # mnml
 
-mnml is a theme for [deck.js][deck], a JavaScript library for building modern HTML presentations. It based on the CSS of one of the default themes, called "Swiss". It has a clean, monochrome look.
+mnml is a theme for [deck.js][deck], a JavaScript library for building modern HTML presentations. It based on the CSS of one of the default themes, called "Swiss". It has a clean look with a tad of class.
 
 ## Usage
 
@@ -12,7 +14,7 @@ mnml is a theme for [deck.js][deck], a JavaScript library for building modern HT
 <link rel="stylesheet" type="text/css" href="/path/to/mnml.css" />
 ```
 
-That's it! Fire up a browser and give a presentation for *acutal* profit!
+All done! Edit your slides and fire up a browser for some lovely storytelling.
 
 ## License
 
