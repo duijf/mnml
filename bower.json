@@ -1,0 +1,12 @@
+{
+  "name": "duijf/mnml",
+  "version": "1.0.0",
+  "main": "mnml.css",
+  "license": "MIT",
+  "ignore": [
+    "**/*.md"
+  ],
+  "dependencies": {
+    "deck.js": "latest"
+  }
+}
